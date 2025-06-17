@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LungCancerApp</string>
+    <string name="home">Home</string>
+    <string name="me">Me</string>
+    <string name="settings">Settings</string>
+    <string name="find_a_doctor">Find a doctor…</string>
+    <string name="show_all">Show All</string>
+    <string name="no_categories_available">No Categories Available</string>
+    <string name="no_doctors_available">No Doctors Available</string>
+    <string name="error_loading_categories">Error loading categories: </string>
+    <string name="error_loading_Doctors">Error loading Doctors List : </string>
+
+
+</resources>
