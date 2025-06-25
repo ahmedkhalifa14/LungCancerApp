@@ -13,6 +13,5 @@ data class InputFeatures(
     val coughing: Float,
     val swallowingDifficulty: Float,
     val chestPain: Float,
-    val Anxyelfin: Float,
-
+    val anxyelfin: Float,
     )

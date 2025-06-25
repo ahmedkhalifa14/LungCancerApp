@@ -102,9 +102,9 @@ class LungCancerPredictionViewModel @Inject constructor(
                 wheezing = inputs[6],
                 alcoholConsuming = inputs[7],
                 coughing = inputs[8],
-                shortnessOfBreath = inputs[9],
-                swallowingDifficulty = inputs[10],
-                chestPain = inputs[11]
+                swallowingDifficulty = inputs[9],
+                chestPain = inputs[10],
+                anxyelfin = inputs[11]
             )
 
             errorMessage.value = ""
