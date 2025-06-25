@@ -11,7 +11,8 @@ data class InputFeatures(
     val wheezing: Float,
     val alcoholConsuming: Float,
     val coughing: Float,
-    val shortnessOfBreath: Float,
     val swallowingDifficulty: Float,
-    val chestPain: Float
-)
+    val chestPain: Float,
+    val Anxyelfin: Float,
+
+    )

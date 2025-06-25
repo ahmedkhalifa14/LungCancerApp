@@ -42,9 +42,9 @@ class TFLiteModelDataSource(
             inputFeatures.wheezing,
             inputFeatures.alcoholConsuming,
             inputFeatures.coughing,
-            inputFeatures.shortnessOfBreath,
             inputFeatures.swallowingDifficulty,
-            inputFeatures.chestPain
+            inputFeatures.chestPain,
+            inputFeatures.Anxyelfin
         )
 
         // Input tensor: [1, 12]

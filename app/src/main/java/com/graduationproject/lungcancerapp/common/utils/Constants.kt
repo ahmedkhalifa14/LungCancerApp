@@ -59,14 +59,15 @@ object Constants {
             Question(2, "Do you suffer from anxiety?"),
             Question(3, "Are you suffering from peer pressure?"),
             Question(4, "Do you have chronic diseases?"),
-            Question(5, "Do you suffer from a chronic disease?"),
-            Question(6, "Are you suffering from fatigue?"),
-            Question(7, "Do you suffer from allergies?"),
-            Question(8, "Do you suffer from wheezing?"),
-            Question(9, "Are you consume alcohol?"),
-            Question(10, "Do you suffer from conditions"),
-            Question(11, "Do you have difficulty swallowing?"),
-            Question(12, "Do your suffer from chest pain?"),
+            Question(5, "Are you suffering from fatigue?"),
+            Question(6, "Do you suffer from allergies?"),
+            Question(7, "Do you suffer from wheezing?"),
+            Question(8, "Are you consume alcohol?"),
+            Question(9, "Do you suffer from conditions"),
+            Question(10, "Do you have difficulty swallowing?"),
+            Question(11, "Do your suffer from chest pain?"),
+            Question(12, "Do ?"),
+
         )
     }
 }

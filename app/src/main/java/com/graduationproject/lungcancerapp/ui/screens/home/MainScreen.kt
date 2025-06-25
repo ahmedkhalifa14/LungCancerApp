@@ -107,8 +107,6 @@ fun RowScope.AddItem(
     currentDestination: NavDestination?,
     navController: NavHostController
 ) {
-    // val iconColor = getColor(AppColors.AppColorSet.AppIconColor)
-    //val textColor = getColor(AppColors.AppColorSet.AppMainTextColor)
     BottomNavigationItem(
         label = {
             Text(text = stringResource(screen.title), color = Color.White)
