@@ -66,7 +66,7 @@ object Constants {
             Question(9, "Do you suffer from conditions"),
             Question(10, "Do you have difficulty swallowing?"),
             Question(11, "Do your suffer from chest pain?"),
-            Question(12, "Do ?"),
+            Question(12, "Are you worried about physical changes such as yellowing of your fingers?"),
 
         )
     }
