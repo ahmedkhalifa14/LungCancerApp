@@ -6,6 +6,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navigation
 import com.graduationproject.lungcancerapp.ui.screens.home.MainScreen
 import com.graduationproject.lungcancerapp.ui.screens.home.ScreenContent
+import com.graduationproject.lungcancerapp.ui.screens.profile.ProfileScreen
 
 fun NavGraphBuilder.homeNavGraph(navController: NavHostController) {
     navigation(
@@ -21,9 +22,7 @@ fun NavGraphBuilder.homeNavGraph(navController: NavHostController) {
             }
         }
         composable(route = Graph.Routes.PROFILE) {
-            ScreenContent(name = "PROFILE") {
-                navController.navigateUp()
-            }
+            ProfileScreen(navController)
         }
         initialDiagnosisGraph(navController)
     }

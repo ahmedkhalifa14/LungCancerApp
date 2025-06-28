@@ -1,6 +1,6 @@
-package com.graduationproject.lungcancerapp.data.repository
+package com.graduationproject.lungcancerapp.data.repository.prediction
 
-import com.graduationproject.lungcancerapp.data.datasource.ModelDataSource
+import com.graduationproject.lungcancerapp.data.local.tflite.ModelDataSource
 import com.graduationproject.lungcancerapp.data.model.InputFeatures
 import com.graduationproject.lungcancerapp.data.model.PredictionResult
 

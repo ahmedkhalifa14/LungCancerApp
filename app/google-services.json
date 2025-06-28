@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "400400182653",
+    "project_id": "lungcare-7a45a",
+    "storage_bucket": "lungcare-7a45a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400400182653:android:19a64b57f235b3ef2bf014",
+        "android_client_info": {
+          "package_name": "com.graduationproject.lungcancerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASiCrUoNs414-AiPeCUVP_aaLAtKuLDtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

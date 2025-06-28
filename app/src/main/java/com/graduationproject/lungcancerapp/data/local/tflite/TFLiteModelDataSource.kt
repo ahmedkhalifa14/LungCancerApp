@@ -1,4 +1,4 @@
-package com.graduationproject.lungcancerapp.data.datasource
+package com.graduationproject.lungcancerapp.data.local.tflite
 
 import android.content.Context
 import com.graduationproject.lungcancerapp.data.model.InputFeatures
@@ -44,7 +44,7 @@ class TFLiteModelDataSource(
             inputFeatures.coughing,
             inputFeatures.swallowingDifficulty,
             inputFeatures.chestPain,
-            inputFeatures.Anxyelfin
+            inputFeatures.anxyelfin
         )
 
         // Input tensor: [1, 12]

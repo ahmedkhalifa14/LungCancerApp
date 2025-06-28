@@ -1,8 +1,8 @@
 package com.graduationproject.lungcancerapp.di
 
 import android.content.Context
-import com.graduationproject.lungcancerapp.data.datasource.ModelDataSource
-import com.graduationproject.lungcancerapp.data.datasource.TFLiteModelDataSource
+import com.graduationproject.lungcancerapp.data.local.tflite.ModelDataSource
+import com.graduationproject.lungcancerapp.data.local.tflite.TFLiteModelDataSource
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

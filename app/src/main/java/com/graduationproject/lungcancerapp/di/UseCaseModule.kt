@@ -1,6 +1,6 @@
 package com.graduationproject.lungcancerapp.di
 
-import com.graduationproject.lungcancerapp.data.repository.PredictionRepository
+import com.graduationproject.lungcancerapp.data.repository.prediction.PredictionRepository
 import com.graduationproject.lungcancerapp.domin.PredictLungCancerUseCase
 import dagger.Module
 import dagger.Provides

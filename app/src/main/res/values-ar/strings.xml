@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_title">مرحبًا بك في LungCare</string>
+    <string name="onboarding_subtitle">رفيقك للكشف المبكر عن سرطان الرئة ومتابعة صحتك.</string>
+    <string name="home">الرئيسية</string>
+    <string name="me">ملفي</string>
+    <string name="settings">الإعدادات</string>
+    <string name="find_a_doctor">ابحث عن طبيب…</string>
+    <string name="show_all">عرض الكل</string>
+    <string name="no_categories_available">لا توجد فئات متاحة</string>
+    <string name="no_doctors_available">لا يوجد أطباء متاحون</string>
+    <string name="error_loading_categories">حدث خطأ أثناء تحميل الفئات:</string>
+    <string name="error_loading_Doctors">حدث خطأ أثناء تحميل قائمة الأطباء:</string>
+    <string name="get_started">لنبدأ</string>
+    <string name="login_welcome_back">مرحبًا بعودتك!</string>
+    <string name="login_subtitle">أدخل بياناتك أو تابع باستخدام وسائل التواصل الاجتماعي.</string>
+    <string name="or_continue_with">-- أو تابع باستخدام --</string>
+    <string name="forget_password">نسيت كلمة المرور؟</string>
+    <string name="new_user">مستخدم جديد؟</string>
+    <string name="create_account">إنشاء حساب</string>
+    <string name="already_have_account">لديك حساب بالفعل؟</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register_account">تسجيل حساب</string>
+    <string name="sign_up">إنشاء حساب</string>
+    <string name="sign_up_c">إنشاء حساب</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="email_address">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="log_in_c">تسجيل الدخول</string>
+
+    <!-- التحقق -->
+    <string name="password_empty">من فضلك أدخل كلمة المرور</string>
+    <string name="min_password">يجب أن تحتوي كلمة المرور على حرف كبير واحد، رقم واحد على الأقل، وطول لا يقل عن 8 أحرف. لا يُسمح بالرموز الخاصة</string>
+    <string name="password_no_spec_characters">لا يُسمح بالرموز الخاصة</string>
+    <string name="one_num_needed">يجب إدخال رقم واحد على الأقل</string>
+    <string name="cap_letter">يجب إدخال حرف كبير واحد على الأقل</string>
+
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="enter_your_email_address">أدخل بريدك الإلكتروني</string>
+    <string name="enter_your_password">أدخل كلمة المرور الخاصة بك</string>
+    <string name="password_must_be_at_least_8_characters_long">يجب أن تكون كلمة المرور 8 أحرف على الأقل</string>
+
+    <string name="account">الحساب</string>
+    <string name="edit_and_manage_your_account">تحرير وإدارة حسابك</string>
+    <string name="change_profile_picture">تغيير صورة الملف الشخصي</string>
+    <string name="first_name">الاسم الأول</string>
+    <string name="second_name">الاسم الثاني</string>
+    <string name="location">الموقع</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="phone">الهاتف</string>
+    <string name="save">حفظ</string>
+    <string name="an_error_occurred">حدث خطأ ما</string>
+    <string name="login_successful">تم تسجيل الدخول بنجاح</string>
+    <string name="complete_your_profile">أكمل ملفك الشخصي</string>
+    <string name="please_fill_all_fields">من فضلك املأ جميع الحقول</string>
+    <string name="you_need_to_register_to_use_the_app">يجب التسجيل لاستخدام التطبيق</string>
+    <string name="profile_updated_successfully">تم تحديث الملف الشخصي بنجاح</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="enter">أدخل</string>
+    <string name="history">سجلك</string>
+    <string name="notification_settings">إعدادات الإشعارات</string>
+    <string name="saved_doctors">الأطباء المحفوظون</string>
+    <string name="enter_your_last_name">قم بإدخال اسمك الاخير</string>
+    <string name="last_name">الاسم الاخير</string>
+    <string name="enter_your_phone_number">قم بإدخال رقم هاتفك</string>
+    <string name="enter_your_location">قم بإدخال موقعك</string>
+    <string name="enter_your_first_name">قم بإدخال اسمك الاول</string>
+    <string name="category">الفئة</string>
+    <string name="recommended_doctors">الأطباء الموصى بهم</string>
+    <string name="your_recent_doctor">أطباؤك مؤخراً</string>
+    <string name="feature_will_coming_soon">ميزة %1$s قادمة قريبًا</string>
+    <string name="find_doctors">ابحث عن الأطباء</string>
+    <string name="are_the_fingers_yellow">هل أصابعك صفراء؟</string>
+    <string name="do_you_suffer_from_anxiety">هل تعاني من القلق؟</string>
+    <string name="are_you_suffering_from_peer_pressure">هل تعاني من ضغط الأقران؟</string>
+    <string name="do_you_have_chronic_diseases">هل لديك أمراض مزمنة؟</string>
+    <string name="are_you_suffering_from_fatigue">هل تعاني من التعب؟</string>
+    <string name="do_you_suffer_from_allergies">هل تعاني من الحساسية؟</string>
+    <string name="do_you_suffer_from_wheezing">هل تعاني من الأزيز؟</string>
+    <string name="are_you_consume_alcohol">هل تتعاطى الكحول؟</string>
+    <string name="do_you_suffer_from_conditions">هل تعاني من حالات صحية؟</string>
+    <string name="do_you_have_difficulty_swallowing">هل لديك صعوبة في البلع؟</string>
+    <string name="do_your_suffer_from_chest_pain">هل تعاني من ألم في الصدر؟</string>
+    <string name="are_you_worried_about_physical_changes_such_as_yellowing_of_your_fingers">هل تقلق بشأن تغيّرات جسدية مثل اصفرار الأصابع؟</string>
+    <string name="initial_diagnosis">التشخيص المبدئي</string>
+    <string name="analysis_ai">تحليل الذكاء الاصطناعي</string>
+    <string name="rays">الأشعة</string>
+    <string name="_800m_away">يبعد 800 متر</string>
+    <string name="cardiologist">طبيب قلب</string>
+    <string name="pediatrician">طبيب أطفال</string>
+    <string name="_1_2km_away">يبعد 1.2 كم</string>
+    <string name="orthopedist">طبيب عظام</string>
+    <string name="_500m_away">يبعد 500 متر</string>
+    <string name="dermatologist">طبيب جلدية</string>
+    <string name="_2_3km_away">يبعد 2.3 كم</string>
+
+
+</resources>

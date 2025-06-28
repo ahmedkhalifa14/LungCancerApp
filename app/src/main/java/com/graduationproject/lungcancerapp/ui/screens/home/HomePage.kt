@@ -28,9 +28,11 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.graduationproject.lungcancerapp.R
 import com.graduationproject.lungcancerapp.common.utils.Constants.getCategories
 import com.graduationproject.lungcancerapp.common.utils.Constants.getDoctorsList
 import com.graduationproject.lungcancerapp.data.model.Category
@@ -54,7 +56,8 @@ fun HomeScreen(
             if (item.id == 1)
                 navigationController.navigate(Graph.INITIAL_DIAGNOSIS)
             else
-                Toast.makeText(context, "${item.name} feature will coming soon", Toast.LENGTH_LONG)
+                Toast.makeText(context,
+                    context.getString(R.string.feature_will_coming_soon, item.name), Toast.LENGTH_LONG)
                     .show()
         }
     )
@@ -94,7 +97,7 @@ fun HomeScreenContent(
                 }
 
                 stickyHeader {
-                    CategoryStickyHeader("Category")
+                    CategoryStickyHeader(stringResource(R.string.category))
                 }
                 item {
                     LazyRow(
@@ -103,11 +106,10 @@ fun HomeScreenContent(
                     ) {
                         item {
                             CategorySection(
-                                categories = getCategories(),
+                                categories = getCategories(LocalContext.current),
                                 isLoading = false,
                                 errorMessage = null,
                                 onCategoryCardClick = { category ->
-                                    Log.d("onCategoryCardClick", "onCategoryCardClicked")
                                     onCategoryCardClick(category)
                                 }
                             )
@@ -116,18 +118,18 @@ fun HomeScreenContent(
                 }
 
                 stickyHeader {
-                    CategoryStickyHeader("Recommended Doctors")
+                    CategoryStickyHeader(stringResource(R.string.recommended_doctors))
                 }
                 item {
                     DoctorCardSection(
-                        doctors = getDoctorsList(),
+                        doctors = getDoctorsList(LocalContext.current),
                         isLoading = false,
                         errorMessage = null,
                         onDoctorCardClick = {}
                     )
                 }
                 stickyHeader {
-                    CategoryStickyHeader("Your Recent Doctor")
+                    CategoryStickyHeader(stringResource(R.string.your_recent_doctor))
                 }
                 item {
                     LazyRow(
@@ -136,7 +138,7 @@ fun HomeScreenContent(
                     ) {
                         item {
                             RecentDoctorSection(
-                                doctors = getDoctorsList(),
+                                doctors = getDoctorsList(LocalContext.current),
                                 isLoading = false,
                                 errorMessage = null
                             )

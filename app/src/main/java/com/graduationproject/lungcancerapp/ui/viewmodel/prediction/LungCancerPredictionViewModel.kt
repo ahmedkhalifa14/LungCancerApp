@@ -1,23 +1,27 @@
-package com.graduationproject.lungcancerapp.ui.viewmodel
+package com.graduationproject.lungcancerapp.ui.viewmodel.prediction
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.ViewModel
-import com.graduationproject.lungcancerapp.common.utils.Constants.getQuestions
+import com.google.api.Context
+import com.graduationproject.lungcancerapp.common.utils.Constants
 import com.graduationproject.lungcancerapp.data.model.InputFeatures
 import com.graduationproject.lungcancerapp.data.model.PredictionResult
 import com.graduationproject.lungcancerapp.data.model.Question
 import com.graduationproject.lungcancerapp.domin.PredictLungCancerUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
+import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 
 @HiltViewModel
 class LungCancerPredictionViewModel @Inject constructor(
-    private val predictUseCase: PredictLungCancerUseCase
+    private val predictUseCase: PredictLungCancerUseCase,
+    @ApplicationContext private val context: android.content.Context
 ) : ViewModel() {
 
     private val _questions = mutableStateListOf<Question>().apply {
-        addAll(getQuestions()!!)
+        addAll(Constants.getQuestions(context)!!)
     }
     val questions: List<Question> get() = _questions
 

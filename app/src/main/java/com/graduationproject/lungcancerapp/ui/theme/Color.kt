@@ -10,3 +10,6 @@ val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 val AppMainColor = Color(0xFF3377C4)
+val FacebookIconColor = Color(0xFF1976d2)
+val GoogleIconColor = Color(0xFF9DE477)
+

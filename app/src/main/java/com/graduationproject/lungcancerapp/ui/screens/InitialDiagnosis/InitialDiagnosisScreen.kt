@@ -33,7 +33,7 @@ import androidx.navigation.NavController
 import com.graduationproject.lungcancerapp.ui.composable.QuestionItem
 import com.graduationproject.lungcancerapp.ui.theme.AppMainColor
 import com.graduationproject.lungcancerapp.ui.theme.Tajawal
-import com.graduationproject.lungcancerapp.ui.viewmodel.LungCancerPredictionViewModel
+import com.graduationproject.lungcancerapp.ui.viewmodel.prediction.LungCancerPredictionViewModel
 
 
 @Composable

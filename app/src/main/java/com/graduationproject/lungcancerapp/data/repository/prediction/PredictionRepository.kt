@@ -1,4 +1,4 @@
-package com.graduationproject.lungcancerapp.data.repository
+package com.graduationproject.lungcancerapp.data.repository.prediction
 
 import com.graduationproject.lungcancerapp.data.model.InputFeatures
 import com.graduationproject.lungcancerapp.data.model.PredictionResult

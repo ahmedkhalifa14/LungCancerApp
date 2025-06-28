@@ -1,4 +1,4 @@
-package com.graduationproject.lungcancerapp.data.datasource
+package com.graduationproject.lungcancerapp.data.local.tflite
 
 import com.graduationproject.lungcancerapp.data.model.InputFeatures
 import com.graduationproject.lungcancerapp.data.model.PredictionResult

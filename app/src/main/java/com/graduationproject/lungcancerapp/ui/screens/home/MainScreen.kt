@@ -32,8 +32,8 @@ import com.graduationproject.lungcancerapp.ui.theme.AppMainColor
 import androidx.compose.material.BottomNavigationItem
 //noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.ContentAlpha
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.ui.graphics.Color
 
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter", "UnusedMaterial3ScaffoldPaddingParameter")
@@ -109,13 +109,13 @@ fun RowScope.AddItem(
 ) {
     BottomNavigationItem(
         label = {
-            Text(text = stringResource(screen.title), color = Color.White)
+            Text(text = stringResource(screen.title), color = MaterialTheme.colorScheme.onBackground)
         },
         icon = {
             Icon(
                 imageVector = screen.icon,
                 contentDescription = "Navigation Icon",
-                tint = Color.White
+                tint = MaterialTheme.colorScheme.onBackground
             )
         },
         selected = currentDestination?.hierarchy?.any {
